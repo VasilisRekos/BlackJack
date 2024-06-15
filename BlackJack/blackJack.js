@@ -1,4 +1,3 @@
-
 const hitBtn = document.getElementById('hit-btn');
 const standBtn = document.getElementById('stand-btn');
 const newGameBtn = document.getElementById('new-game-btn');
