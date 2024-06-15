@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="blackJack.css">
+</head>
+<body>
+<h1 id="bj-title">----------BlackJack-----------</h1>
+<img src="images/dealer.png" id="bj-dealer" alt="Dealer">
+<div class="bj-container">
+<table class="bj-table">
+    <tr>
+        <th class="bj-names">Player</th>
+        <th class="bj-names">Dealer</th>
+    </tr>
+    <tr>
+        <td>
+            <div id="player-cards" class="bj-card-table"></div>
+            <div id="player-hand-value" class="hand-value"></div>
+        </td>
+        <td>
+            <div id="dealer-cards" class="bj-card-table"></div>
+            <div id="dealer-hand-value" class="hand-value"></div>
+
+        </td>
+    </tr>
+</table>
+</div>
+<div id="game-status"></div>
+<div class="bj-controls">
+    <button id="hit-btn" class="bi-controls-hover">Hit</button>
+    <button id="stand-btn" class="bi-controls-hover">Stand</button>
+    <button id="new-game-btn" class="bi-controls-hover">New Game</button>
+</div>
+
+
+<script type="text/javascript" src="blackJack.js" defer></script>
+</body>
+</html>
